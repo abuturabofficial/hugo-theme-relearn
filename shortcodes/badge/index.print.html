@@ -1,0 +1,1166 @@
+<!DOCTYPE html>
+<html id="R-html" lang="en" dir="ltr" itemscope itemtype="http://schema.org/Article" data-r-output-format="print">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="height=device-height, width=device-width, initial-scale=1.0, minimum-scale=1.0">
+    <meta name="generator" content="Hugo 0.166.0">
+    <meta name="generator" content="Relearn 9.1.0+aa16cb1ffeba3d0a07a6b29111eeb8a5d3a62d69">
+    <meta name="description" content="Marker badges to display in your text">
+    <meta name="author" content="Sören Weber">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://abuturabofficial.github.io/hugo-theme-relearn/shortcodes/badge/featured.png">
+    <meta name="twitter:title" content="Badge :: Hugo Relearn Theme">
+    <meta name="twitter:description" content="Marker badges to display in your text">
+    <meta property="og:url" content="https://abuturabofficial.github.io/hugo-theme-relearn/shortcodes/badge/index.html">
+    <meta property="og:site_name" content="Hugo Relearn Theme">
+    <meta property="og:title" content="Badge :: Hugo Relearn Theme">
+    <meta property="og:description" content="Marker badges to display in your text">
+    <meta property="og:locale" content="en">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://abuturabofficial.github.io/hugo-theme-relearn/shortcodes/badge/featured.png">
+    <meta itemprop="name" content="Badge :: Hugo Relearn Theme">
+    <meta itemprop="description" content="Marker badges to display in your text">
+    <meta itemprop="wordCount" content="1622">
+    <meta itemprop="image" content="https://abuturabofficial.github.io/hugo-theme-relearn/shortcodes/badge/featured.png">
+    <meta itemprop="keywords" content="Howto,Reference">
+    <title>Badge :: Hugo Relearn Theme</title>
+    <link href="https://abuturabofficial.github.io/hugo-theme-relearn/shortcodes/badge/index.html" rel="alternate" hreflang="x-default">
+    <link href="https://abuturabofficial.github.io/hugo-theme-relearn/shortcodes/badge/index.html" rel="alternate" hreflang="en">
+    <link href="https://abuturabofficial.github.io/hugo-theme-relearn/pir/shortcodes/badge/index.html" rel="alternate" hreflang="art-x-pir">
+    <link href="https://abuturabofficial.github.io/hugo-theme-relearn/shortcodes/badge/index.html" rel="canonical" type="text/html" title="Badge :: Hugo Relearn Theme">
+    <link href="/hugo-theme-relearn/shortcodes/badge/index.xml" rel="alternate" type="application/rss+xml" title="Badge :: Hugo Relearn Theme">
+    <link href="/hugo-theme-relearn/images/logo.a0d6f24580a63a8065f77e889fdf2ee51c464658dd001245f5e071f2881664de.svg" rel="icon" type="image/svg+xml">
+    <link href="/hugo-theme-relearn/css/auto-complete/auto-complete.min.78b49c23f59ffb08554285843ed4c841484fe34c489058b2991edc027cdd47fc.css" rel="stylesheet">
+    <script src="/hugo-theme-relearn/js/auto-complete/auto-complete.min.7b340a2a0841d2466dca47e43cbd8c4dfe6a4f77a6c81c984d49ebb60ba2e299.js" defer></script>
+    <script src="/hugo-theme-relearn/js/search-lunr.min.9af015a288d1c0d444de2d8fb41fd8fdd679ead7dd60e637608740d50078fdf9.js" defer></script>
+    <script src="/hugo-theme-relearn/js/search.min.795bf51f4b531fcd29fe7ffb27f174f6bb6b0ce086465e2be48643dea742dfbb.js" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.index_js_url="../../"+"searchindex.en.min.e5d7c9bcd848029235a73e51e266223e40df10fbebd61a9f4955373c3b7a9dae.js";
+    </script>
+    <script src="/hugo-theme-relearn/js/lunr/lunr.min.75e90b6cec204a54a07060b42ec82f3816430c63ffd689d1e9771f469dc493dd.js" defer></script>
+    <script src="/hugo-theme-relearn/js/lunr/lunr.stemmer.support.min.5ff7b6bd53462911fc1311c09f654085b748338aced249e719c0b16fda0b90fb.js" defer></script>
+    <script src="/hugo-theme-relearn/js/lunr/lunr.multi.min.ffaee7f1e07179595fe8a4b7c469761f90999470e1f04dcb0a94dc2c1cb44f9c.js" defer></script>
+    <script src="/hugo-theme-relearn/js/lunr/lunr.en.min.94d0a7cb1f111200e2f5be9dc32699cf266aaa29011e414bdcd36a18ea0fd5ee.js" defer></script>
+    <script>
+      window.relearn = window.relearn || {};
+      window.relearn.contentLangs=['en'];
+    </script>
+    <link href="/hugo-theme-relearn/fonts/fontawesome/css/all.min.e0b69df26e19596d4b81bf7eb0c54b6047e7221ec18d5d4d40c11eefd3ef8a4b.css" rel="stylesheet" media="print" onload="this.media='all';this.onload=null;"><noscript><link href="/hugo-theme-relearn/fonts/fontawesome/css/all.min.e0b69df26e19596d4b81bf7eb0c54b6047e7221ec18d5d4d40c11eefd3ef8a4b.css" rel="stylesheet"></noscript>
+    <link href="/hugo-theme-relearn/css/theme.min.32fc05e0609fd96a5649db64239b59fb6aa97201bf6a6d16675143819db3b284.css" rel="stylesheet">
+    <link href="/hugo-theme-relearn/css/format-print.min.39e0dc30e3ca73e623fcf660fac10bf09db5539b3d13e59e90977cf7137e6aee.css" rel="stylesheet" id="R-format-style">
+    <script>
+      window.relearn = window.relearn || {};
+      // configuration
+      window.relearn.path='\/shortcodes\/badge\/index.html';
+      window.relearn.relBasePath='..\/..';
+      window.relearn.relBaseUri='..\/..\/..';
+      window.relearn.absBaseUri='https:\/\/abuturabofficial.github.io\/hugo-theme-relearn';
+      window.relearn.disableInlineCopyToClipboard=true;
+      window.relearn.enableBlockCodeWrap=true;
+      // translations
+      window.T_Copy_to_clipboard = `Copy text to clipboard`;
+      window.T_Copied_to_clipboard = `Text copied to clipboard!`;
+      window.T_Link_copied_to_clipboard = `Link copied to clipboard!`;
+      window.T_Reset_view = `Reset view`;
+      window.T_View_reset = `View reset!`;
+      window.T_No_results_found = `No results found for "{0}"`;
+      window.T_N_results_found = `{1} results found for "{0}"`;
+      window.T_Browser_unsupported_feature = `This browser doesn't support this feature`;
+      // variant stuff
+      window.relearn.themevariants = [ 'relearn-auto', 'relearn-dark', 'relearn-light', 'relearn-bright', 'zen-auto', 'zen-dark', 'zen-light', 'retro-auto', 'neon', 'learn', 'blue', 'green', 'red' ];
+      window.relearn.customvariantprefix = "my-custom-";
+      window.relearn.changeVariant = function(variant) {
+        var oldVariant = document.documentElement.dataset.rThemeVariant;
+        window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        document.documentElement.dataset.rThemeVariant = variant;
+        if (oldVariant != variant) {
+          document.dispatchEvent( new CustomEvent('themeVariantLoaded', { detail: { variant, oldVariant } }) );
+          window.relearn.markVariant();
+        }
+      }
+      window.relearn.markVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant");
+        document.querySelectorAll(".R-variantswitcher select").forEach((select) => {select.value = variant;});
+      }
+      window.relearn.initVariant = function() {
+        var variant = window.localStorage.getItem(window.relearn.absBaseUri + "/variant") ?? "";
+        if( !variant ||
+            (!variant.startsWith(window.relearn.customvariantprefix) && !window.relearn.themevariants.includes(variant)) ||
+            (variant.startsWith(window.relearn.customvariantprefix) && !window.localStorage.getItem(window.relearn.absBaseUri + "/variantstylesheet-" + variant)) ){
+          variant = window.relearn.themevariants[0];
+          window.localStorage.setItem(window.relearn.absBaseUri + "/variant", variant);
+        }
+        document.documentElement.dataset.rThemeVariant = variant;
+      }
+      window.relearn.initVariant();
+      window.relearn.markVariant();
+      window.relearn.scrollbarSize = (function() {
+        var scrollDiv = document.createElement('div');
+        scrollDiv.className = 'scrollbar-measure';
+        var parent = document.body || document.documentElement;
+        parent.appendChild(scrollDiv);
+        var size = scrollDiv.offsetWidth - scrollDiv.clientWidth;
+        parent.removeChild(scrollDiv);
+        return size;
+      })();
+      if (window.relearn.scrollbarSize) {
+        document.documentElement.classList.add('classic-scrollbars');
+      }
+    </script>
+    <style>
+       
+      #R-body img.bg-white {
+        background-color: white;
+      }
+    </style>
+  </head>
+  <body class="mobile-support print" data-origin="/hugo-theme-relearn/shortcodes/badge/index.html">
+    <div id="R-body" class="default-animation">
+      <div id="R-body-overlay"></div>
+      <nav id="R-topbar" class="default-animation">
+        <div class="topbar-wrapper default-animation">
+          <div class="topbar-sidebar-divider default-animation"></div>
+          <div class="topbar-area topbar-area-start" data-area="start">
+            <div class="topbar-button topbar-button-sidebar default-animation" data-content-empty="disable" data-width-s="show" data-width-m="hide" data-width-l="hide">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleNav()" type="button" title="Menu (CTRL&#43;ALT&#43;n)"><i class="fa-fw fas fa-bars"></i></button></span>
+            </div>
+            <div class="topbar-button topbar-button-toc default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="Table of Contents (CTRL&#43;ALT&#43;t)"><i class="fa-fw fas fa-table-list"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper" tabindex="-1">
+<nav class="TableOfContents">
+  <ul>
+    <li><a href="#usage">Usage</a>
+      <ul>
+        <li><a href="#parameters">Parameters</a></li>
+      </ul>
+    </li>
+    <li><a href="#examples">Examples</a>
+      <ul>
+        <li><a href="#style">Style</a></li>
+        <li><a href="#variants">Variants</a></li>
+        <li><a href="#other">Other</a></li>
+      </ul>
+    </li>
+  </ul>
+</nav> 
+                </div>
+              </div>
+            </div>
+          </div>
+          <ol class="topbar-breadcrumbs breadcrumbs highlightable" itemscope itemtype="http://schema.org/BreadcrumbList"><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class="a11y-only"><a itemprop="item" href="/hugo-theme-relearn/index.html"><span itemprop="name">Hugo Relearn Theme</span></a><meta itemprop="position" content="1">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><a itemprop="item" href="/hugo-theme-relearn/shortcodes/index.html"><span itemprop="name">Shortcodes</span></a><meta itemprop="position" content="2">&nbsp;>&nbsp;</li><li itemscope itemtype="https://schema.org/ListItem" itemprop="itemListElement" class=""><span itemprop="name">Badge</span><meta itemprop="position" content="3"></li>
+          </ol>
+          <div class="topbar-area topbar-area-end" data-area="end">
+            <div class="topbar-button topbar-button-edit default-animation" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="https://github.com/McShelby/hugo-theme-relearn/edit/main/docs/content/shortcodes/badge/_index.en.md" rel="external" target="_self" title="Edit (CTRL+ALT+w)"><i class="fa-fw fas fa-pen"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-print default-animation" data-content-empty="disable" data-width-s="area-more" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/hugo-theme-relearn/shortcodes/badge/index.print.html" title="Print whole chapter (CTRL+ALT+p)"><i class="fa-fw fas fa-print"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-prev default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/hugo-theme-relearn/shortcodes/index.html" title="Shortcodes (🡐)"><i class="fa-fw fas fa-chevron-left"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-next default-animation" data-content-empty="disable" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><a href="/hugo-theme-relearn/shortcodes/button/index.html" title="Button (🡒)"><i class="fa-fw fas fa-chevron-right"></i></a></span>
+            </div>
+            <div class="topbar-button topbar-button-more default-animation" data-content-empty="hide" data-width-s="show" data-width-m="show" data-width-l="show">
+<span class="btn cstyle button link noborder notitle interactive"><button onclick="toggleTopbarFlyout(this)" type="button" title="More"><i class="fa-fw fas fa-ellipsis-v"></i></button></span>
+              <div class="topbar-content">
+                <div class="topbar-content-wrapper" tabindex="-1">
+                  <div class="topbar-area topbar-area-more" data-area="more">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+      <div id="R-main-overlay"></div>
+      <main id="R-body-inner" class="highlightable shortcodes" tabindex="-1">
+        <div class="flex-block-wrapper">
+<article class="default">
+  <header class="headline">
+  </header>
+
+<h1 id="badge">Badge</h1>
+
+<p>The <code>badge</code> shortcode displays colorful markers in your text with optional icons.</p>
+
+<span class="badge cstyle default"><span class="badge-content">Important</span></span>
+<span class="badge cstyle primary badge-with-title"><span class="badge-title">Version</span><span class="badge-content">6.6.6</span></span>
+<span class="badge cstyle red badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-angle-double-up"></i></span><span class="badge-content">Captain</span></span>
+<span class="badge cstyle info badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-info-circle"></i> Info</span><span class="badge-content">New</span></span>
+<span class="badge cstyle default badge-with-title"><span class="badge-title"><i class="fa-fw fab fa-hackerrank"></i></span><span class="badge-content" style="background-color: fuchsia;">Awesome</span></span>
+<h2 id="usage">Usage<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+
+<div class="tab-panel" data-tab-group="R-tabs-e1fc9564fa2c053a1e6269a64309529d">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      aria-controls="R-tab-id-ce929ae75665bd6e49df8923b2075b0a" aria-expanded="true"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-6feadb455c64759731e453380c52fbd9')"
+    >
+      <span class="tab-nav-text">Shortcode</span>
+    </button>
+    <button
+      aria-controls="R-tab-id-e86bf545070d1f1bd98ba0bd9384f226" aria-expanded="false"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-44ffd38a6dea695cbe2b34efdcc6cf27')"
+    >
+      <span class="tab-nav-text">Partial</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      id="R-tab-id-ce929ae75665bd6e49df8923b2075b0a"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Important</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;primary&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Version&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="mf">6.6.6</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;angle-double-up&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;red&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Captain</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;info&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">New</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">color</span><span class="p">=</span><span class="s">&#34;fuchsia&#34;</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;fa-fw fab fa-hackerrank&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Awesome</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+    <div
+      id="R-tab-id-e86bf545070d1f1bd98ba0bd9384f226"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Important&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;6.6.6&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;primary&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Version&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Captain&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;angle-double-up&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;red&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;New&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;info&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;color&#34;</span><span class="w"> </span><span class="s">&#34;fuchsia&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Awesome&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;fa-fw fab fa-hackerrank&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+  </div>
+</div>
+<h3 id="parameters">Parameters<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<table>
+	<thead>
+			<tr>
+					<th>Name</th>
+					<th>Default</th>
+					<th>Notes</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>style</strong></td>
+					<td><code>default</code></td>
+					<td>The style scheme used for the badge.<br><br>- by severity: <code>caution</code>, <code>important</code>, <code>info</code>, <code>note</code>, <code>tip</code>, <code>warning</code><br>- by brand color: <code>primary</code>, <code>secondary</code>, <code>accent</code><br>- by color: <code>blue</code>, <code>cyan</code>, <code>green</code>, <code>grey</code>, <code>magenta</code>, <code>orange</code>, <code>red</code><br>- by special color: <code>default</code>, <code>transparent</code>, <code>code</code>, <code>link</code>, <code>action</code>, <code>inline</code><br><br>You can also <a href="/hugo-theme-relearn/shortcodes/notice/index.html#defining-own-styles">define your own styles</a>.</td>
+			</tr>
+			<tr>
+					<td><strong>color</strong></td>
+					<td>see notes</td>
+					<td>The <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/color_value" rel="external" target="_self">CSS color value</a> to be used. If not set, the chosen color depends on the <strong>style</strong>. Any given value will overwrite the default.<br><br>- for severity styles: a nice matching color for the severity<br>- for all other styles: the corresponding color</td>
+			</tr>
+			<tr>
+					<td><strong>title</strong></td>
+					<td>see notes</td>
+					<td>Arbitrary text for the badge title. Depending on the <strong>style</strong> there may be a default title. Any given value will overwrite the default.<br><br>- for severity styles: the matching title for the severity<br>- for all other styles: <em>&lt;empty&gt;</em><br><br>If you want no title for a severity style, you have to set this parameter to <code>&quot; &quot;</code> (a non empty string filled with spaces)</td>
+			</tr>
+			<tr>
+					<td><strong>icon</strong></td>
+					<td>see notes</td>
+					<td><a href="/hugo-theme-relearn/shortcodes/icon/index.html#finding-an-icon">Font Awesome icon name</a> set to the left of the title. Depending on the <strong>style</strong> there may be a default icon. Any given value will overwrite the default.<br><br>- for severity styles: a nice matching icon for the severity<br>- for all other styles: <em>&lt;empty&gt;</em><br><br>If you want no icon for a severity style, you have to set this parameter to <code>&quot; &quot;</code> (a non empty string filled with spaces)</td>
+			</tr>
+			<tr>
+					<td><em><strong>&lt;content&gt;</strong></em></td>
+					<td><em>&lt;empty&gt;</em></td>
+					<td>Arbitrary text for the badge.</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="examples">Examples<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h2>
+<h3 id="style">Style<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<h4 id="by-severity">By Severity<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+
+<div class="tab-panel" data-tab-group="R-tabs-e1fc9564fa2c053a1e6269a64309529d">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      aria-controls="R-tab-id-073eb8c1fa56d4afe4b548f19767dcf7" aria-expanded="true"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-6feadb455c64759731e453380c52fbd9')"
+    >
+      <span class="tab-nav-text">Shortcode</span>
+    </button>
+    <button
+      aria-controls="R-tab-id-855f30d0eb35ec264851ed7a4c1328b5" aria-expanded="false"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-44ffd38a6dea695cbe2b34efdcc6cf27')"
+    >
+      <span class="tab-nav-text">Partial</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      id="R-tab-id-073eb8c1fa56d4afe4b548f19767dcf7"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;caution&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Magenta</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;important&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Cyan</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;info&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Blue</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;note&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Orange</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;tip&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Green</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;warning&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Red</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+    <div
+      id="R-tab-id-855f30d0eb35ec264851ed7a4c1328b5"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Magenta&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;caution&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Cyan&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;important&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Blue&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;info&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Orange&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;note&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Green&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;tip&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Red&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;warning&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="badge cstyle caution badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-hand"></i> Caution</span><span class="badge-content">Magenta</span></span>
+<span class="badge cstyle important badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-bolt"></i> Important</span><span class="badge-content">Cyan</span></span>
+<span class="badge cstyle info badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-info-circle"></i> Info</span><span class="badge-content">Blue</span></span>
+<span class="badge cstyle note badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-exclamation-circle"></i> Note</span><span class="badge-content">Orange</span></span>
+<span class="badge cstyle tip badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-lightbulb"></i> Tip</span><span class="badge-content">Green</span></span>
+<span class="badge cstyle warning badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-exclamation-triangle"></i> Warning</span><span class="badge-content">Red</span></span>
+<h4 id="by-brand-colors">By Brand Colors<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+
+<div class="tab-panel" data-tab-group="R-tabs-e1fc9564fa2c053a1e6269a64309529d">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      aria-controls="R-tab-id-c349d6ea63730a70b6a97f2e77a80ac3" aria-expanded="true"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-6feadb455c64759731e453380c52fbd9')"
+    >
+      <span class="tab-nav-text">Shortcode</span>
+    </button>
+    <button
+      aria-controls="R-tab-id-68e62e823af7d6d3e60a380f58211877" aria-expanded="false"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-44ffd38a6dea695cbe2b34efdcc6cf27')"
+    >
+      <span class="tab-nav-text">Partial</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      id="R-tab-id-c349d6ea63730a70b6a97f2e77a80ac3"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;bullhorn&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;primary&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Announcement&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Mandatory</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;bullhorn&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;secondary&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Announcement&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Optional</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;bullhorn&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;accent&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Announcement&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Special</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+    <div
+      id="R-tab-id-68e62e823af7d6d3e60a380f58211877"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Mandatory&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;bullhorn&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;primary&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Announcement&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Optional&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;bullhorn&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;secondary&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Announcement&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Special&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;bullhorn&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;accent&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Announcement&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="badge cstyle primary badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-bullhorn"></i> Announcement</span><span class="badge-content">Mandatory</span></span>
+<span class="badge cstyle secondary badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-bullhorn"></i> Announcement</span><span class="badge-content">Optional</span></span>
+<span class="badge cstyle accent badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-bullhorn"></i> Announcement</span><span class="badge-content">Special</span></span>
+<h4 id="by-color">By Color<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+
+<div class="tab-panel" data-tab-group="R-tabs-e1fc9564fa2c053a1e6269a64309529d">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      aria-controls="R-tab-id-d7aeebe985aa3c448e5601919d97170b" aria-expanded="true"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-6feadb455c64759731e453380c52fbd9')"
+    >
+      <span class="tab-nav-text">Shortcode</span>
+    </button>
+    <button
+      aria-controls="R-tab-id-018edb16c51964c1efc0fa2727abb49c" aria-expanded="false"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-44ffd38a6dea695cbe2b34efdcc6cf27')"
+    >
+      <span class="tab-nav-text">Partial</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      id="R-tab-id-d7aeebe985aa3c448e5601919d97170b"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;palette&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;blue&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Color&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Blue</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;palette&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;cyan&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Color&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Cyan</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;palette&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;green&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Color&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Green</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;palette&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;grey&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Color&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Grey</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;palette&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;magenta&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Color&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Magenta</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;palette&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;orange&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Color&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Orange</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;palette&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;red&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Color&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Red</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+    <div
+      id="R-tab-id-018edb16c51964c1efc0fa2727abb49c"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Blue&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;palette&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;blue&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Color&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Cyan&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;palette&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;cyan&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Color&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Green&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;palette&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;green&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Color&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Grey&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;palette&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;grey&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Color&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Magenta&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;palette&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;magenta&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Color&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Orange&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;palette&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;orange&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Color&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Red&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;palette&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;red&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Color&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="badge cstyle blue badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-palette"></i> Color</span><span class="badge-content">Blue</span></span>
+<span class="badge cstyle cyan badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-palette"></i> Color</span><span class="badge-content">Cyan</span></span>
+<span class="badge cstyle green badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-palette"></i> Color</span><span class="badge-content">Green</span></span>
+<span class="badge cstyle grey badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-palette"></i> Color</span><span class="badge-content">Grey</span></span>
+<span class="badge cstyle magenta badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-palette"></i> Color</span><span class="badge-content">Magenta</span></span>
+<span class="badge cstyle orange badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-palette"></i> Color</span><span class="badge-content">Orange</span></span>
+<span class="badge cstyle red badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-palette"></i> Color</span><span class="badge-content">Red</span></span>
+<h4 id="by-special-color">By Special Color<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+
+<div class="tab-panel" data-tab-group="R-tabs-e1fc9564fa2c053a1e6269a64309529d">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      aria-controls="R-tab-id-07210aaee007daf7905a401ba699948d" aria-expanded="true"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-6feadb455c64759731e453380c52fbd9')"
+    >
+      <span class="tab-nav-text">Shortcode</span>
+    </button>
+    <button
+      aria-controls="R-tab-id-53ad95a4e2b64cfefbd2bbb40bec031a" aria-expanded="false"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-44ffd38a6dea695cbe2b34efdcc6cf27')"
+    >
+      <span class="tab-nav-text">Partial</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      id="R-tab-id-07210aaee007daf7905a401ba699948d"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;palette&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;default&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Color&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Default</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;palette&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;transparent&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Color&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Transparent</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;palette&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;code&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Color&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Code</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;palette&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;link&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Color&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Link</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;palette&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;action&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Color&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Action</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;palette&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;inline&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Color&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Inline</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+    <div
+      id="R-tab-id-53ad95a4e2b64cfefbd2bbb40bec031a"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Default&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;palette&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;default&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Color&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Transparent&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;palette&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;transparent&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Color&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Code&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;palette&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;code&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Color&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Link&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;palette&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;link&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Color&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Action&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;palette&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;action&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Color&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Inline&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;palette&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;inline&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Color&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="badge cstyle default badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-palette"></i> Color</span><span class="badge-content">Default</span></span>
+<span class="badge cstyle transparent badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-palette"></i> Color</span><span class="badge-content">Transparent</span></span>
+<span class="badge cstyle code badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-palette"></i> Color</span><span class="badge-content">Code</span></span>
+<span class="badge cstyle link badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-palette"></i> Color</span><span class="badge-content">Link</span></span>
+<span class="badge cstyle action badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-palette"></i> Color</span><span class="badge-content">Action</span></span>
+<span class="badge cstyle inline badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-palette"></i> Color</span><span class="badge-content">Inline</span></span>
+<h3 id="variants">Variants<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<h4 id="without-icon-and-title-text">Without Icon and Title Text<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+
+<div class="tab-panel" data-tab-group="R-tabs-e1fc9564fa2c053a1e6269a64309529d">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      aria-controls="R-tab-id-9bd9d2ec9bc7844835eba483d20b71ad" aria-expanded="true"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-6feadb455c64759731e453380c52fbd9')"
+    >
+      <span class="tab-nav-text">Shortcode</span>
+    </button>
+    <button
+      aria-controls="R-tab-id-b919e137ba1d099309fdab8c40825e7d" aria-expanded="false"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-44ffd38a6dea695cbe2b34efdcc6cf27')"
+    >
+      <span class="tab-nav-text">Partial</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      id="R-tab-id-9bd9d2ec9bc7844835eba483d20b71ad"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="mf">6.6.6</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34; &#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;info&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34; &#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Awesome</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;red&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Captain</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+    <div
+      id="R-tab-id-b919e137ba1d099309fdab8c40825e7d"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;6.6.6&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Awesome&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34; &#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;info&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34; &#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Captain&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;red&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="badge cstyle default"><span class="badge-content">6.6.6</span></span>
+<span class="badge cstyle info"><span class="badge-content">Awesome</span></span>
+<span class="badge cstyle red"><span class="badge-content">Captain</span></span>
+<h4 id="without-icon">Without Icon<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+
+<div class="tab-panel" data-tab-group="R-tabs-e1fc9564fa2c053a1e6269a64309529d">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      aria-controls="R-tab-id-7d0f00d18e04d5a1dea71fe2262d6b32" aria-expanded="true"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-6feadb455c64759731e453380c52fbd9')"
+    >
+      <span class="tab-nav-text">Shortcode</span>
+    </button>
+    <button
+      aria-controls="R-tab-id-acefb6b0aed84a7736e446fbe52b5289" aria-expanded="false"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-44ffd38a6dea695cbe2b34efdcc6cf27')"
+    >
+      <span class="tab-nav-text">Partial</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      id="R-tab-id-7d0f00d18e04d5a1dea71fe2262d6b32"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Version&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="mf">6.6.6</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34; &#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;info&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Awesome</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;red&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Rank&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Captain</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+    <div
+      id="R-tab-id-acefb6b0aed84a7736e446fbe52b5289"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;6.6.6&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Version&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Awesome&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34; &#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;info&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Captain&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;red&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Rank&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="badge cstyle default badge-with-title"><span class="badge-title">Version</span><span class="badge-content">6.6.6</span></span>
+<span class="badge cstyle info badge-with-title"><span class="badge-title">Info</span><span class="badge-content">Awesome</span></span>
+<span class="badge cstyle red badge-with-title"><span class="badge-title">Rank</span><span class="badge-content">Captain</span></span>
+<h4 id="without-title-text">Without Title Text<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+
+<div class="tab-panel" data-tab-group="R-tabs-e1fc9564fa2c053a1e6269a64309529d">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      aria-controls="R-tab-id-93ee364ef3e8c7ddae042e235710d36b" aria-expanded="true"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-6feadb455c64759731e453380c52fbd9')"
+    >
+      <span class="tab-nav-text">Shortcode</span>
+    </button>
+    <button
+      aria-controls="R-tab-id-e10b543b039f5129809bb96a3644c3cc" aria-expanded="false"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-44ffd38a6dea695cbe2b34efdcc6cf27')"
+    >
+      <span class="tab-nav-text">Partial</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      id="R-tab-id-93ee364ef3e8c7ddae042e235710d36b"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;star&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="mf">6.6.6</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;info&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34; &#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Awesome</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;angle-double-up&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;red&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Captain</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+    <div
+      id="R-tab-id-e10b543b039f5129809bb96a3644c3cc"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;6.6.6&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;star&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Awesome&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;info&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34; &#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Captain&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;angle-double-up&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;red&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="badge cstyle default badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-star"></i></span><span class="badge-content">6.6.6</span></span>
+<span class="badge cstyle info badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-info-circle"></i></span><span class="badge-content">Awesome</span></span>
+<span class="badge cstyle red badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-angle-double-up"></i></span><span class="badge-content">Captain</span></span>
+<h4 id="all-set">All Set<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+
+<div class="tab-panel" data-tab-group="R-tabs-e1fc9564fa2c053a1e6269a64309529d">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      aria-controls="R-tab-id-9a31628d367c0aad5606f4ff428265db" aria-expanded="true"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-6feadb455c64759731e453380c52fbd9')"
+    >
+      <span class="tab-nav-text">Shortcode</span>
+    </button>
+    <button
+      aria-controls="R-tab-id-d4e379f41210ca41955432417ab04d8e" aria-expanded="false"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-44ffd38a6dea695cbe2b34efdcc6cf27')"
+    >
+      <span class="tab-nav-text">Partial</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      id="R-tab-id-9a31628d367c0aad5606f4ff428265db"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;star&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Version&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="mf">6.6.6</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;info&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Awesome</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;angle-double-up&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;red&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Rank&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Captain</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+    <div
+      id="R-tab-id-d4e379f41210ca41955432417ab04d8e"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;6.6.6&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;star&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Version&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Awesome&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;info&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Captain&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;angle-double-up&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;red&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Rank&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="badge cstyle default badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-star"></i> Version</span><span class="badge-content">6.6.6</span></span>
+<span class="badge cstyle info badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-info-circle"></i> Info</span><span class="badge-content">Awesome</span></span>
+<span class="badge cstyle red badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-angle-double-up"></i> Rank</span><span class="badge-content">Captain</span></span>
+<h4 id="override-for-severity">Override for Severity<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+
+<div class="tab-panel" data-tab-group="R-tabs-e1fc9564fa2c053a1e6269a64309529d">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      aria-controls="R-tab-id-6d3fb5c0ab20563abcb9ce3ae6153bbd" aria-expanded="true"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-6feadb455c64759731e453380c52fbd9')"
+    >
+      <span class="tab-nav-text">Shortcode</span>
+    </button>
+    <button
+      aria-controls="R-tab-id-78e76213e7b1fe4913e95748466075c7" aria-expanded="false"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-44ffd38a6dea695cbe2b34efdcc6cf27')"
+    >
+      <span class="tab-nav-text">Partial</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      id="R-tab-id-6d3fb5c0ab20563abcb9ce3ae6153bbd"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;rocket&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;info&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Feature&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Awesome</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+    <div
+      id="R-tab-id-78e76213e7b1fe4913e95748466075c7"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Awesome&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;rocket&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;info&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Feature&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="badge cstyle info badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-rocket"></i> Feature</span><span class="badge-content">Awesome</span></span>
+<h3 id="other">Other<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h3>
+<h4 id="with-user-defined-color-font-awesome-brand-icon-and-markdown-title-and-content">With User-Defined Color, Font Awesome Brand Icon and Markdown Title and Content<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+
+<div class="tab-panel" data-tab-group="R-tabs-e1fc9564fa2c053a1e6269a64309529d">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      aria-controls="R-tab-id-f7556ef06d27767f017c1e552260933c" aria-expanded="true"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-6feadb455c64759731e453380c52fbd9')"
+    >
+      <span class="tab-nav-text">Shortcode</span>
+    </button>
+    <button
+      aria-controls="R-tab-id-7603ec8ae4f5c1349ba1292687ef098a" aria-expanded="false"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-44ffd38a6dea695cbe2b34efdcc6cf27')"
+    >
+      <span class="tab-nav-text">Partial</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      id="R-tab-id-f7556ef06d27767f017c1e552260933c"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">color</span><span class="p">=</span><span class="s">&#34;fuchsia&#34;</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;fa-fw fab fa-hackerrank&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;**Font**&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="o">**</span><span class="nx">Awesome</span><span class="o">**</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+    <div
+      id="R-tab-id-7603ec8ae4f5c1349ba1292687ef098a"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;color&#34;</span><span class="w"> </span><span class="s">&#34;fuchsia&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;**Awesome**&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;fa-fw fab fa-hackerrank&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;**Font**&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span></span></span></code></pre></div>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="badge cstyle default badge-with-title"><span class="badge-title"><i class="fa-fw fab fa-hackerrank"></i> <strong>Font</strong></span><span class="badge-content" style="background-color: fuchsia;"><strong>Awesome</strong></span></span>
+<h4 id="with-icon-content">With Icon Content<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+<p>You can combine the badge with the <a href="/hugo-theme-relearn/shortcodes/icon/index.html"><code>icon</code> shortcode</a> to create even more stunning visuals.</p>
+<p>In this case you need to declare <code>{{&lt; badge &gt;}}</code> instead of <code>{{% badge %}}</code>. Note, that in this case it is not possible to put markdown in the content.</p>
+
+<div class="tab-panel" data-tab-group="R-tabs-e1fc9564fa2c053a1e6269a64309529d">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      aria-controls="R-tab-id-1be6ec7c9cd0f07e69e862c257fd491d" aria-expanded="true"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-6feadb455c64759731e453380c52fbd9')"
+    >
+      <span class="tab-nav-text">Shortcode</span>
+    </button>
+    <button
+      aria-controls="R-tab-id-3e8d5b6c9db21a99c9c5e7904a16b061" aria-expanded="false"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-44ffd38a6dea695cbe2b34efdcc6cf27')"
+    >
+      <span class="tab-nav-text">Partial</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      id="R-tab-id-1be6ec7c9cd0f07e69e862c257fd491d"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;&lt;</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;angle-double-up&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;primary&#34;</span><span class="w"> </span><span class="p">&gt;&#125;&#125;&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">icon</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;skull-crossbones&#34;</span><span class="w"> </span><span class="o">/%</span><span class="p">&#125;&#125;&#123;&#123;&lt;</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="p">&gt;&#125;&#125;</span><span class="w">  
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;&lt;</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;angle-double-up&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;primary&#34;</span><span class="w"> </span><span class="p">&gt;&#125;&#125;&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">icon</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;skull-crossbones&#34;</span><span class="w"> </span><span class="o">/%</span><span class="p">&#125;&#125;</span><span class="w"> </span><span class="nx">Pirate</span><span class="p">&#123;&#123;&lt;</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="p">&gt;&#125;&#125;</span><span class="w">  
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;&lt;</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;primary&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Rank&#34;</span><span class="w"> </span><span class="p">&gt;&#125;&#125;&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">icon</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;skull-crossbones&#34;</span><span class="w"> </span><span class="o">/%</span><span class="p">&#125;&#125;&#123;&#123;&lt;</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="p">&gt;&#125;&#125;</span><span class="w">  
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;&lt;</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;primary&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Rank&#34;</span><span class="w"> </span><span class="p">&gt;&#125;&#125;&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">icon</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;skull-crossbones&#34;</span><span class="w"> </span><span class="o">/%</span><span class="p">&#125;&#125;</span><span class="w"> </span><span class="nx">Pirate</span><span class="p">&#123;&#123;&lt;</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="p">&gt;&#125;&#125;</span><span class="w">  
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;&lt;</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;angle-double-up&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;primary&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Rank&#34;</span><span class="w"> </span><span class="p">&gt;&#125;&#125;&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">icon</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;skull-crossbones&#34;</span><span class="w"> </span><span class="o">/%</span><span class="p">&#125;&#125;&#123;&#123;&lt;</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="p">&gt;&#125;&#125;</span><span class="w">  
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;&lt;</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;angle-double-up&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;primary&#34;</span><span class="w"> </span><span class="nx">title</span><span class="p">=</span><span class="s">&#34;Rank&#34;</span><span class="w"> </span><span class="p">&gt;&#125;&#125;&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">icon</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;skull-crossbones&#34;</span><span class="w"> </span><span class="o">/%</span><span class="p">&#125;&#125;</span><span class="w"> </span><span class="nx">Pirate</span><span class="p">&#123;&#123;&lt;</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="p">&gt;&#125;&#125;</span><span class="w">  </span></span></span></code></pre></div>
+      </div>
+    </div>
+    <div
+      id="R-tab-id-3e8d5b6c9db21a99c9c5e7904a16b061"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;angle-double-up&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/icon.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;skull-crossbones&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">))</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;primary&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">  
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;angle-double-up&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/icon.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;skull-crossbones&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">))</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;primary&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">  
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/icon.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;skull-crossbones&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">))</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;primary&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Rank&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">  
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/icon.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;skull-crossbones&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">))</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;primary&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Rank&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">  
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;angle-double-up&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/icon.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;skull-crossbones&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">))</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;primary&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Rank&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">  
+</span></span></span><span class="line"><span class="cl"><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;angle-double-up&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/icon.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">    </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;skull-crossbones&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="p">))</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;primary&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;title&#34;</span><span class="w"> </span><span class="s">&#34;Rank&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w">  </span></span></span></code></pre></div>
+      </div>
+    </div>
+  </div>
+</div>
+<span class="badge cstyle primary badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-angle-double-up"></i></span><span class="badge-content"><i class="fa-fw fas fa-skull-crossbones"></i></span></span><br>
+<span class="badge cstyle primary badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-angle-double-up"></i></span><span class="badge-content"><i class="fa-fw fas fa-skull-crossbones"></i> Pirate</span></span><br>
+<span class="badge cstyle primary badge-with-title"><span class="badge-title">Rank</span><span class="badge-content"><i class="fa-fw fas fa-skull-crossbones"></i></span></span><br>
+<span class="badge cstyle primary badge-with-title"><span class="badge-title">Rank</span><span class="badge-content"><i class="fa-fw fas fa-skull-crossbones"></i> Pirate</span></span><br>
+<span class="badge cstyle primary badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-angle-double-up"></i> Rank</span><span class="badge-content"><i class="fa-fw fas fa-skull-crossbones"></i></span></span><br>
+<span class="badge cstyle primary badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-angle-double-up"></i> Rank</span><span class="badge-content"><i class="fa-fw fas fa-skull-crossbones"></i> Pirate</span></span>
+<h4 id="inside-of-text">Inside of Text<span class="btn cstyle anchor copyanchor scrollanchor link noborder notitle interactive"><button type="button" title="Copy link to clipboard"><i class="fa-fw fas fa-link fa-lg"></i></button></span></h4>
+
+<div class="tab-panel" data-tab-group="R-tabs-e1fc9564fa2c053a1e6269a64309529d">
+  <div class="tab-nav">
+    <div class="tab-nav-title">&#8203;</div>
+    <button
+      aria-controls="R-tab-id-e443e59ea4749133a13a6d3927c8febc" aria-expanded="true"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-nav-button tab-panel-style cstyle initial active" tabindex="-1"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-6feadb455c64759731e453380c52fbd9')"
+    >
+      <span class="tab-nav-text">Shortcode</span>
+    </button>
+    <button
+      aria-controls="R-tab-id-eb4d17d75070a3871c80a7c8506f78d4" aria-expanded="false"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-nav-button tab-panel-style cstyle initial"
+      onclick="switchTab('R-tabs-e1fc9564fa2c053a1e6269a64309529d','R-tab-44ffd38a6dea695cbe2b34efdcc6cf27')"
+    >
+      <span class="tab-nav-text">Partial</span>
+    </button>
+  </div>
+  <div class="tab-content-container">
+    <div
+      id="R-tab-id-e443e59ea4749133a13a6d3927c8febc"
+      data-tab-item="R-tab-6feadb455c64759731e453380c52fbd9"
+      class="tab-content tab-panel-style cstyle initial active">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="nx">Lorem</span><span class="w"> </span><span class="nx">ipsum</span><span class="w"> </span><span class="nx">dolor</span><span class="w"> </span><span class="nx">sit</span><span class="w"> </span><span class="nx">amet</span><span class="p">,</span><span class="w"> </span><span class="nx">graecis</span><span class="w"> </span><span class="nx">denique</span><span class="w"> </span><span class="nx">ei</span><span class="w"> </span><span class="nx">vel</span><span class="p">,</span><span class="w"> </span><span class="nx">at</span><span class="w"> </span><span class="nx">duo</span><span class="w"> </span><span class="nx">primis</span><span class="w"> </span><span class="nx">mandamus</span><span class="p">.</span><span class="w"> </span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="nx">badge</span><span class="w"> </span><span class="nx">icon</span><span class="p">=</span><span class="s">&#34;rocket&#34;</span><span class="w"> </span><span class="nx">style</span><span class="p">=</span><span class="s">&#34;blue&#34;</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="nx">Awesome</span><span class="p">&#123;&#123;</span><span class="o">%</span><span class="w"> </span><span class="o">/</span><span class="nx">badge</span><span class="w"> </span><span class="o">%</span><span class="p">&#125;&#125;</span><span class="w"> </span><span class="nx">Et</span><span class="w"> </span><span class="nx">legere</span><span class="w"> </span><span class="nx">ocurreret</span><span class="w"> </span><span class="nx">pri</span><span class="p">,</span><span class="w"> </span><span class="nx">animal</span><span class="w"> </span><span class="nx">tacimates</span><span class="w"> </span><span class="nx">complectitur</span><span class="w"> </span><span class="nx">ad</span><span class="w"> </span><span class="nx">cum</span><span class="p">.</span><span class="w"> </span><span class="nx">Cu</span><span class="w"> </span><span class="nx">eum</span><span class="w"> </span><span class="nx">inermis</span><span class="w"> </span><span class="nx">inimicus</span><span class="w"> </span><span class="nx">efficiendi</span><span class="p">.</span><span class="w"> </span><span class="nx">Labore</span><span class="w"> </span><span class="nx">officiis</span><span class="w"> </span><span class="nx">his</span><span class="w"> </span><span class="nx">ex</span><span class="p">,</span><span class="w"> </span><span class="nx">soluta</span><span class="w"> </span><span class="nx">officiis</span><span class="w"> </span><span class="nx">concludaturque</span><span class="w"> </span><span class="nx">ei</span><span class="w"> </span><span class="nx">qui</span><span class="p">,</span><span class="w"> </span><span class="nx">vide</span><span class="w"> </span><span class="nx">sensibus</span><span class="w"> </span><span class="nx">vim</span><span class="w"> </span><span class="nx">ad</span><span class="p">.</span></span></span></code></pre></div>
+      </div>
+    </div>
+    <div
+      id="R-tab-id-eb4d17d75070a3871c80a7c8506f78d4"
+      data-tab-item="R-tab-44ffd38a6dea695cbe2b34efdcc6cf27"
+      class="tab-content tab-panel-style cstyle initial">
+      <div class="tab-content-text">
+<div class="highlight actionbar-wrapper wrap-code" dir="auto"><pre tabindex="0" class="chroma"><code class="language-go" data-lang="go"><span class="line"><span class="cl"><span class="nx">Lorem</span><span class="w"> </span><span class="nx">ipsum</span><span class="w"> </span><span class="nx">dolor</span><span class="w"> </span><span class="nx">sit</span><span class="w"> </span><span class="nx">amet</span><span class="p">,</span><span class="w"> </span><span class="nx">graecis</span><span class="w"> </span><span class="nx">denique</span><span class="w"> </span><span class="nx">ei</span><span class="w"> </span><span class="nx">vel</span><span class="p">,</span><span class="w"> </span><span class="nx">at</span><span class="w"> </span><span class="nx">duo</span><span class="w"> </span><span class="nx">primis</span><span class="w"> </span><span class="nx">mandamus</span><span class="p">.</span><span class="w"> </span><span class="p">&#123;&#123;</span><span class="w"> </span><span class="nx">partial</span><span class="w"> </span><span class="s">&#34;shortcodes/badge.html&#34;</span><span class="w"> </span><span class="p">(</span><span class="nx">dict</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;page&#34;</span><span class="w"> </span><span class="p">.</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;content&#34;</span><span class="w"> </span><span class="s">&#34;Awesome&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;icon&#34;</span><span class="w"> </span><span class="s">&#34;rocket&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="w">  </span><span class="s">&#34;style&#34;</span><span class="w"> </span><span class="s">&#34;blue&#34;</span><span class="w">
+</span></span></span><span class="line"><span class="cl"><span class="p">)&#125;&#125;</span><span class="w"> </span><span class="nx">Et</span><span class="w"> </span><span class="nx">legere</span><span class="w"> </span><span class="nx">ocurreret</span><span class="w"> </span><span class="nx">pri</span><span class="p">,</span><span class="w"> </span><span class="nx">animal</span><span class="w"> </span><span class="nx">tacimates</span><span class="w"> </span><span class="nx">complectitur</span><span class="w"> </span><span class="nx">ad</span><span class="w"> </span><span class="nx">cum</span><span class="p">.</span><span class="w"> </span><span class="nx">Cu</span><span class="w"> </span><span class="nx">eum</span><span class="w"> </span><span class="nx">inermis</span><span class="w"> </span><span class="nx">inimicus</span><span class="w"> </span><span class="nx">efficiendi</span><span class="p">.</span><span class="w"> </span><span class="nx">Labore</span><span class="w"> </span><span class="nx">officiis</span><span class="w"> </span><span class="nx">his</span><span class="w"> </span><span class="nx">ex</span><span class="p">,</span><span class="w"> </span><span class="nx">soluta</span><span class="w"> </span><span class="nx">officiis</span><span class="w"> </span><span class="nx">concludaturque</span><span class="w"> </span><span class="nx">ei</span><span class="w"> </span><span class="nx">qui</span><span class="p">,</span><span class="w"> </span><span class="nx">vide</span><span class="w"> </span><span class="nx">sensibus</span><span class="w"> </span><span class="nx">vim</span><span class="w"> </span><span class="nx">ad</span><span class="p">.</span></span></span></code></pre></div>
+      </div>
+    </div>
+  </div>
+</div>
+Lorem ipsum dolor sit amet, graecis denique ei vel, at duo primis mandamus. <span class="badge cstyle blue badge-with-title"><span class="badge-title"><i class="fa-fw fas fa-rocket"></i></span><span class="badge-content">Awesome</span></span> Et legere ocurreret pri, animal tacimates complectitur ad cum. Cu eum inermis inimicus efficiendi. Labore officiis his ex, soluta officiis concludaturque ei qui, vide sensibus vim ad.
+
+  <footer class="footline">
+<div class="R-taxonomy taxonomy-categories cstyle" title="Categories" style="--VARIABLE-TAGS-BG-color: var(--INTERNAL-TAG-BG-color);">
+  <i class="fa-fw fas fa-layer-group"></i>
+  <ul>
+    <li><a class="term-link" href="/hugo-theme-relearn/categories/howto/index.html">Howto</a></li>
+    <li><a class="term-link" href="/hugo-theme-relearn/categories/reference/index.html">Reference</a></li>
+  </ul>
+</div>
+  </footer>
+</article>
+        </div>
+      </main>
+    </div>
+    <script src="/hugo-theme-relearn/js/theme.min.d942eef811263d7b57cf1b2a93ef437ff9f08846efa7033ef7c5904369ae490e.js" defer></script>
+    <div id="toast-container" role="status" aria-live="polite" aria-atomic="false"></div>
+  </body>
+</html>
